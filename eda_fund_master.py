@@ -1,3 +1,8 @@
+
+"""
+Perform exploratory analysis on mutual fund master data.
+"""
+
 import pandas as pd
 
 # Load dataset

@@ -1,6 +1,11 @@
+
+"""
+Clean and standardize mutual fund NAV history data.
+"""
+
 import pandas as pd
 
-# Load dataset
+# Loading dataset:
 df = pd.read_csv("Data/Raw/08_investor_transactions.csv")
 
 print("=" * 60)
@@ -9,11 +14,11 @@ print("=" * 60)
 
 print("Original Shape:", df.shape)
 
-# Check missing values
+# Check missing values:
 print("\nMissing Values:")
 print(df.isnull().sum())
 
-# Remove duplicate rows
+# Remove duplicate rows:
 duplicates = df.duplicated().sum()
 df = df.drop_duplicates()
 

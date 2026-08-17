@@ -1,3 +1,8 @@
+
+"""
+Clean and standardize mutual fund scheme performance data.
+"""
+
 import pandas as pd
 
 # Load dataset

@@ -1,3 +1,8 @@
+
+"""
+Load and organize the raw mutual fund datasets.
+"""
+
 import pandas as pd
 import os
 

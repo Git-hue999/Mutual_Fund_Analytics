@@ -1,3 +1,8 @@
+
+"""
+Generate mutual fund recommendations based on investor risk grade.
+"""
+
 import pandas as pd
 
 funds = pd.read_csv(

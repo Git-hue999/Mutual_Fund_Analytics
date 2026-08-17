@@ -1,3 +1,8 @@
+
+"""
+Validate processed datasets for missing values, duplicates, data types, and basic consistency.
+"""
+
 import pandas as pd
 
 fund = pd.read_csv("Data/Raw/01_fund_master.csv")

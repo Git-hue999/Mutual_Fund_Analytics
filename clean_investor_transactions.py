@@ -1,6 +1,11 @@
+
+"""
+Clean investor transaction data and prepare it for analysis.
+"""
+
 import pandas as pd
 
-# Load dataset
+# Loading dataset:
 df = pd.read_csv("Data/Raw/08_investor_transactions.csv")
 
 print("=" * 60)
